@@ -1,4 +1,4 @@
-## ResearchMind 🔬
+ResearchMind 🔬
 ResearchMind is an automated, multi-agent AI research pipeline that conducts web searches, scrapes deep page content, synthesizes findings into structured reports, and evaluates its own output with rigorous editorial critique.
 
 Powered entirely by the ultra-fast Groq Ecosystem and orchestrated via LangChain, the application provides a 100% UI-driven environment that requires no persistent configuration or local environmental keys.
@@ -22,6 +22,10 @@ The workflow flows sequentially across three custom files:
 └─────────────┘       └─────────────┘       └─────────────┘
  Raw Extraction        Agent Wrappers        Streamlit UI
   (BS4/Tavily)         & Chain Logics       & Context Flow
+
+
+
+
 📦 Prerequisites & Installation
 Make sure your virtual environment (my_env) is activated, then install the required dependencies:
 
